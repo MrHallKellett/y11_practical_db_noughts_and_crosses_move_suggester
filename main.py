@@ -58,7 +58,7 @@ def check_for_winner(board):
         if board[i] == board[i+3] == board[i+6]:
             return board[i]
             
-    if board[0] == board[4] == board[7]:
+    if board[0] == board[4] == board[8]:
         return board[0]
     
     if board[2] == board[4] == board[6]:
